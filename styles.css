@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    flex-direction: row;
+}
+
+.background {
+    background-image: url(plant.jpg);
+    width: 40vw;
+    color: #fff
+}
+
+.image-container {
+    background-color: black;
+    opacity: .5;
+    margin-top: 20%;
+    padding-left: 0vw;
+    display: flex;
+    flex-direction: column;
+    font-size: large
+}
+
+.image-container img {
+    width: 15vw;
+    padding-left: 5vw;
+    opacity: 1;
+}
+
+a {
+    color: #fff
+}
