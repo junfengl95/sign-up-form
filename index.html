@@ -16,12 +16,37 @@
         </footer>
     </div>
     <div class="container">
-        <h1>This is not a real online service</h1>
-        <p>You <em>know you </em>want to</p>
-        <form>
-
+        <header class="form-header">
+            <h1>This is not a real online service</h1>
+                <p>You <em>know you </em>want to</p>
+        </header>
+        <form action="" method="get" class="signup-form">
+            <h1>Let's Do This</h1>
+            <section>
+                <div class="form-row">
+                    <label for="firstname">
+                        <span>FIRST NAME</span></label>
+                    <input type="text" id="firstname" name="firstname">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <div class="form-row">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phonenumber">PHONE NUMBER</label>
+                    <input type="tel" id="phonenumber" name="phonenumber">
+                </div>
+                <div class="form-row">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" id="pwd" name="pwd">
+                    <label for="confirmpwd">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmpwd" name="pwd">
+                </div>
+            </section>
         </form>
-        <button>Create Account</button>
     </div>
+    
+
+    
 </body>
 </html>
