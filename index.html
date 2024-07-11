@@ -32,12 +32,12 @@
                     <div class="input-group">
                         <label for="firstname">
                             <span>FIRST NAME</span></label>
-                        <input type="text" id="firstname" name="firstname">
+                        <input type="text" id="firstname" name="firstname" placeholder="White" required>
                     </div>
                     <div class="input-group">
                         <label for="lastname">
                             <span>LAST NAME</span></label>
-                        <input type="text" id="lastname" name="lastname">
+                        <input type="text" id="lastname" name="lastname" placeholder="Walter" required>
                     </div>
                 </div>
                 <div class="form-row">
@@ -45,23 +45,24 @@
                         <label for="email">
                             <span>EMAIL</span>
                         </label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
                     </div>
                     <div class="input-group">
                         <label for="phonenumber">
                             <span>PHONE NUMBER</span></label>
-                        <input type="tel" id="phonenumber" name="phonenumber">
+                        <input type="tel" id="phonenumber" name="phonenumber" required>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="input-group">
                         <label for="pwd">PASSWORD</label>
-                        <input type="password" id="pwd" name="pwd">
+                        <input type="password" id="pwd" name="pwd" minlength="6" placeholder="minimum 6 characters" required>
                     </div>
                     <div class="input-group">
                         <label for="confirmpwd">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirmpwd" name="pwd">
+                        <input type="password" id="confirmpwd" name="pwd" required>
                     </div>
+                    <span id="pwd-error" style="color:red"></span>
                 </div>
             </section>
         </form>
@@ -74,6 +75,7 @@
             </p>
         </div>
     </div>
+    <script src="password.js"></script>
 </body>
 
 </html>

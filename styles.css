@@ -87,6 +87,7 @@ section {
 .input-group {
     display: flex;
     flex-direction: column;
+    margin-right: 100px
 }
 
 .signup-form {
@@ -103,6 +104,11 @@ input[type="password"] {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
+    border-color: #e5e7eb;
+}
+
+input:invalid {
+    border: 2px solid red;
 }
 
 button {
